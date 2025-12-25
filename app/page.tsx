@@ -19,7 +19,7 @@ export default function LandingPage() {
                 Sign In
               </Button>
             </Link>
-            <Link href="/register">
+            <Link href="/signup">
               <Button>Get Started</Button>
             </Link>
           </div>
@@ -36,7 +36,7 @@ export default function LandingPage() {
           Create once, publish everywhere. Schedule and manage your social media content across all platforms from one
           powerful dashboard.
         </p>
-        <Link href="/register">
+        <Link href="/signup">
           <Button size="lg" className="text-lg px-8 py-4">
             Start Free Trial
           </Button>
@@ -46,7 +46,7 @@ export default function LandingPage() {
       {/* Features */}
       <section className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-8">
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
+          <Card>
             <CardHeader>
               <CheckCircle className="h-10 w-10 text-green-600 mb-4" />
               <CardTitle className="dark:text-white">Multi-Platform Publishing</CardTitle>
@@ -55,7 +55,7 @@ export default function LandingPage() {
               </CardDescription>
             </CardHeader>
           </Card>
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
+          <Card>
             <CardHeader>
               <Calendar className="h-10 w-10 text-blue-600 mb-4" />
               <CardTitle className="dark:text-white">Smart Scheduling</CardTitle>
@@ -64,7 +64,7 @@ export default function LandingPage() {
               </CardDescription>
             </CardHeader>
           </Card>
-          <Card className="dark:bg-gray-800 dark:border-gray-700">
+          <Card>
             <CardHeader>
               <BarChart3 className="h-10 w-10 text-purple-600 mb-4" />
               <CardTitle className="dark:text-white">Analytics & Insights</CardTitle>

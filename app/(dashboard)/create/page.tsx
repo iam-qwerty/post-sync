@@ -108,7 +108,7 @@ export default function CreatePostPage() {
         <div className="lg:col-span-2 space-y-6">
           {/* Content Type Tabs */}
           <Tabs defaultValue="media" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 bg-gray-100 dark:bg-gray-800 rounded-2xl p-1 mb-6">
+            <TabsList className="grid w-full grid-cols-2 bg-gray-100 rounded-2xl p-1 mb-6">
               <TabsTrigger
                 value="media"
                 className="rounded-xl font-medium py-2 dark:data-[state=active]:bg-gray-700 dark:data-[state=active]:text-white"
@@ -125,7 +125,7 @@ export default function CreatePostPage() {
 
             <TabsContent value="media" className="space-y-6">
               {/* Media Upload */}
-              <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+              <Card className="card-modern card-soft-shadow dark:border-gray-700">
                 <CardHeader className="pb-4">
                   <CardTitle className="text-lg dark:text-white">Upload Media</CardTitle>
                   <CardDescription className="dark:text-gray-400">
@@ -164,7 +164,7 @@ export default function CreatePostPage() {
               </Card>
 
               {/* Captions for Media Posts */}
-              <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+              <Card className="card-modern card-soft-shadow dark:border-gray-700">
                 <CardHeader className="pb-4">
                   <CardTitle className="text-lg dark:text-white">Captions</CardTitle>
                   <CardDescription className="dark:text-gray-400">
@@ -245,7 +245,7 @@ export default function CreatePostPage() {
 
             <TabsContent value="text" className="space-y-6">
               {/* Master Content */}
-              <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+              <Card className="card-modern card-soft-shadow dark:border-gray-700">
                 <CardHeader className="pb-4">
                   <CardTitle className="text-lg dark:text-white">Master Content</CardTitle>
                   <CardDescription className="dark:text-gray-400">
@@ -275,7 +275,7 @@ export default function CreatePostPage() {
               </Card>
 
               {/* Platform-Specific Content */}
-              <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+              <Card className="card-modern card-soft-shadow dark:border-gray-700">
                 <CardHeader className="pb-4">
                   <CardTitle className="text-lg dark:text-white">Platform-Specific Content</CardTitle>
                   <CardDescription className="dark:text-gray-400">
@@ -333,7 +333,7 @@ export default function CreatePostPage() {
         {/* Platform Selection & Scheduling */}
         <div className="space-y-6">
           {/* Select Platforms */}
-          <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+          <Card className="card-modern card-soft-shadow dark:border-gray-700">
             <CardHeader className="pb-4">
               <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Select Platforms</CardTitle>
               <CardDescription className="text-gray-600 dark:text-gray-400">
@@ -374,7 +374,7 @@ export default function CreatePostPage() {
           </Card>
 
           {/* Schedule Settings */}
-          <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+          <Card className="card-modern card-soft-shadow dark:border-gray-700">
             <CardHeader className="pb-4">
               <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Schedule Settings</CardTitle>
               <CardDescription className="text-gray-600 dark:text-gray-400">

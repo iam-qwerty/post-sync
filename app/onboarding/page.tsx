@@ -54,13 +54,13 @@ export default function OnboardingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center p-4">
-      <Card className="w-full max-w-2xl dark:bg-gray-800 dark:border-gray-700">
+      <Card className="w-full max-w-2xl">
         <CardHeader className="text-center pb-8">
           <CardTitle className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Connect your social accounts
           </CardTitle>
           <CardDescription className="text-lg text-gray-600 dark:text-gray-300">
-            Connect your social accounts to PostBridge to start scheduling posts.
+            Connect your social accounts to Post-Sync to start scheduling posts.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">

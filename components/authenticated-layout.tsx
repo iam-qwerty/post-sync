@@ -60,7 +60,7 @@ function AuthenticatedLayoutContent({ children }: AuthenticatedLayoutProps) {
                   <span className="sr-only">Notifications</span>
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-80 rounded-2xl p-2 dark:bg-gray-800 dark:border-gray-700">
+              <DropdownMenuContent align="end" className="w-80 rounded-2xl p-2">
                 <div className="px-4 py-3 border-b dark:border-gray-700">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Notifications</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">You have 3 unread notifications</p>
@@ -115,7 +115,7 @@ function AuthenticatedLayoutContent({ children }: AuthenticatedLayoutProps) {
                   </Avatar>
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-56 rounded-2xl p-2 dark:bg-gray-800 dark:border-gray-700">
+              <DropdownMenuContent align="end" className="w-56 rounded-2xl p-2">
                 <div className="px-4 py-3 border-b dark:border-gray-700">
                   <p className="font-semibold text-gray-900 dark:text-white">John Doe</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">john@example.com</p>

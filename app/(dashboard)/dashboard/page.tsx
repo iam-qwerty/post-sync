@@ -75,7 +75,7 @@ export default function DashboardPage() {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
-        <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+        <Card className="card-modern card-soft-shadow">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
             <CardTitle className="text-sm font-medium text-gray-600 dark:text-gray-400">Scheduled Posts</CardTitle>
             <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-2xl flex items-center justify-center">
@@ -88,7 +88,7 @@ export default function DashboardPage() {
           </CardContent>
         </Card>
 
-        <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+        <Card className="card-modern card-soft-shadow">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
             <CardTitle className="text-sm font-medium text-gray-600 dark:text-gray-400">Published Today</CardTitle>
             <div className="w-10 h-10 bg-green-100 dark:bg-green-900 rounded-2xl flex items-center justify-center">
@@ -101,7 +101,7 @@ export default function DashboardPage() {
           </CardContent>
         </Card>
 
-        <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+        <Card className="card-modern card-soft-shadow">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
             <CardTitle className="text-sm font-medium text-gray-600 dark:text-gray-400">Connected Accounts</CardTitle>
             <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900 rounded-2xl flex items-center justify-center">
@@ -114,7 +114,7 @@ export default function DashboardPage() {
           </CardContent>
         </Card>
 
-        <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+        <Card className="card-modern card-soft-shadow">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-3">
             <CardTitle className="text-sm font-medium text-gray-600 dark:text-gray-400">Success Rate</CardTitle>
             <div className="w-10 h-10 bg-green-100 dark:bg-green-900 rounded-2xl flex items-center justify-center">
@@ -130,7 +130,7 @@ export default function DashboardPage() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Upcoming Posts */}
-        <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+        <Card className="card-modern card-soft-shadow">
           <CardHeader className="pb-4">
             <CardTitle className="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
               <Calendar className="h-5 w-5" />
@@ -168,7 +168,7 @@ export default function DashboardPage() {
         </Card>
 
         {/* Recent Activity */}
-        <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+        <Card className="card-modern card-soft-shadow">
           <CardHeader className="pb-4">
             <CardTitle className="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
               <BarChart3 className="h-5 w-5" />
@@ -216,7 +216,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Quick Actions */}
-      <Card className="card-modern card-soft-shadow dark:bg-gray-800 dark:border-gray-700">
+      <Card className="card-modern card-soft-shadow">
         <CardHeader className="pb-4">
           <CardTitle className="text-lg font-bold dark:text-white">Quick Actions</CardTitle>
           <CardDescription className="dark:text-gray-400">Common tasks and shortcuts</CardDescription>
